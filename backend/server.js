@@ -9,7 +9,7 @@ const router=require('./router');
 app.use(cors());
 app.use(express.json());
 
-const uri = 'connect string to mongoDB';
+const uri = 'mongodb+srv://sirimath93_db_user:jQLrQ7vBXTNxXm3T@cluster0.gpal2tw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 
 
 
