@@ -5,7 +5,7 @@ The app uses **MongoDB Atlas** for the database and runs both frontend and backe
 
 ---
 
-## ✨ Features
+##  Features
 - Add new student details.
 - View all students in a responsive table.
 - Edit or delete existing student information.
@@ -13,14 +13,14 @@ The app uses **MongoDB Atlas** for the database and runs both frontend and backe
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - **Frontend:** React, Axios
 - **Backend:** Node.js, Express
 - **Database:** MongoDB Atlas (cloud)
 
 ---
 
-## 🚀 Getting Started (Local Development)
+##  Getting Started (Local Development)
 
 ### 1️⃣ Prerequisites
 Make sure you have installed:
@@ -64,7 +64,7 @@ npm start
 
 ---
 
-## 🌐 Connecting Frontend & Backend
+##  Connecting Frontend & Backend
 In the frontend project, check the API base URL (e.g., inside `src/api.js` or similar):
 ```js
 export const API_URL = "http://localhost:5000";
@@ -74,7 +74,7 @@ Adjust if needed.
 ---
 
 
-## ☁️ Deployment Guide
+##  Deployment Guide
 
 You can deploy **frontend** and **backend** separately.
 
@@ -109,7 +109,7 @@ Steps are similar—create a new service, set environment variables, deploy.
 
 ---
 
-## 🔑 Environment Variables Summary
+##  Environment Variables Summary
 | Variable | Description |
 |----------|------------|
 | `MONGO_URI` | MongoDB Atlas connection string |
@@ -120,7 +120,7 @@ Steps are similar—create a new service, set environment variables, deploy.
 
 
 ## 📸 Screenshots
-| ![Dashboard](../screenshots/dashboard.png) | ![Data Table](../screenshots/table.png) |  
+| ![Dashboard](/screenshots/dashboard.png) | ![Data Table](/screenshots/table.png) |  
 
 ---
 
